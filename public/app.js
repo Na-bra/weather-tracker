@@ -21,8 +21,8 @@ function App() {
       }
 
       setWeather(data);
-    } catch (submissionError) {
-      setError(submissionError.message);
+    } catch (error) {
+      setError(error.message);
     } finally {
       setLoading(false);
     }
