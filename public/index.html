@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Tracker</title>
+    <style>
+      body { font-family: Arial, sans-serif; margin: 0; background: #f4f7fb; }
+      .container { max-width: 720px; margin: 40px auto; padding: 24px; background: white; border-radius: 12px; box-shadow: 0 8px 24px rgba(15,23,42,.08); }
+      h1 { margin-top: 0; }
+      form { display: flex; gap: 8px; margin-bottom: 16px; }
+      input { flex: 1; padding: 10px; border: 1px solid #d1d5db; border-radius: 8px; }
+      button { padding: 10px 14px; border: 0; border-radius: 8px; background: #2563eb; color: white; cursor: pointer; }
+      .error { color: #b91c1c; margin: 12px 0; }
+      .card { padding: 14px; border: 1px solid #e5e7eb; border-radius: 8px; margin-top: 12px; }
+      ul { padding-left: 18px; margin: 8px 0 0; }
+      li { margin: 4px 0; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="/vendor/react/react.production.min.js"></script>
+    <script src="/vendor/react-dom/react-dom.production.min.js"></script>
+    <script src="/app.js"></script>
+  </body>
+</html>
