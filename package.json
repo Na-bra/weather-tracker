@@ -1,0 +1,19 @@
+{
+  "name": "weather-tracker",
+  "version": "1.0.0",
+  "description": "A simple weather app that provides real-time weather updates, temperature, humidity, and forecasts for any location. Users can quickly check current conditions and upcoming weather with a clean, easy-to-use interface.",
+  "main": "server.js",
+  "scripts": {
+    "test": "node --test",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.5.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
